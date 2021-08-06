@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+header {
+  width: 100%;
+  display: flex;
+}
+.center-headblock {
+  margin: auto;
+  display: flex;
+  flex-grow: 1;
+}
+nav ul {
+  display: flex;
+  margin: 20px;
+}
