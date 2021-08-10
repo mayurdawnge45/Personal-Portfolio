@@ -39,9 +39,7 @@ header {
 .center-headblock h4:nth-child(2) {
   margin-left: 55px;
 }
-.nav {
-  display: none;
-}
+
 ul li a {
   color: #fff;
   text-decoration: none;
