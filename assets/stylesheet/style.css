@@ -6,12 +6,12 @@ body {
 /* header start from here */
 .main-container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 header {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -68,7 +68,7 @@ nav ul li {
 }
 /* header end from here */
 /* banner start from here */
-.banner {
+.container-section {
   display: flex;
   justify-content: space-between;
 }
@@ -77,6 +77,23 @@ nav ul li {
   line-height: 1;
   font-size: 25px;
 }
+.right-banner {
+  margin-left: 100px;
+}
 .left-banner span {
   color: #ff4c60;
+}
+.newslatter-section {
+  margin-top: 100px;
+  display: flex;
+  background: #f9f3f5;
+  padding: 25px 150px;
+}
+.content-section h2 {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.content-section p {
+  line-height: 1;
 }
