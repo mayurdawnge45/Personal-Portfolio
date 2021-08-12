@@ -87,7 +87,13 @@ nav ul li {
   margin-top: 100px;
   display: flex;
   background: #f7dce5;
-  padding: 25px 150px;
+  padding: 25px 100px;
+  justify-content: space-between;
+}
+.newslatter-section a {
+  margin-top: 60px;
+  font-weight: bold;
+  text-decoration: none;
 }
 .content-section h2 {
   font-weight: bold;
@@ -96,4 +102,37 @@ nav ul li {
 }
 .content-section p {
   line-height: 1;
+}
+.input-section {
+  text-align: right;
+}
+.input-text {
+  padding: 20px 30px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-top: 50px;
+  width: 300px;
+}
+.skill-section {
+  margin-top: 200px;
+}
+.skills-left {
+  width: 520px;
+  padding: 50px;
+  background: #f7dce5;
+  border-radius: 20px;
+}
+.skill-section {
+  display: flex;
+}
+.skills-left img {
+  display: block;
+  margin: auto;
+}
+.skills-right {
+  flex-grow: 1;
+  margin-left: 100px;
+}
+.skills-right h2 {
+  margin-top: 50px;
 }
