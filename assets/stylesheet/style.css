@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 /* header start from here */
 .main-container {
@@ -13,7 +13,7 @@ header {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-around;
 }
@@ -91,7 +91,7 @@ nav ul li {
   justify-content: space-between;
 }
 .newslatter-section a {
-  margin-top: 60px;
+  margin-left: 30px;
   font-weight: bold;
   text-decoration: none;
 }
