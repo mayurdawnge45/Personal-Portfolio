@@ -66,7 +66,7 @@ nav ul li {
   border: none;
   cursor: pointer;
 }
-/* header end from here */
+/* header end  here */
 /* banner start from here */
 .banner-section {
   display: flex;
@@ -97,6 +97,9 @@ nav ul li {
   font-style: italic;
   margin-top: -25px;
   font-size: 35px;
+}
+.container-section {
+  display: flex;
 }
 .heading-section {
   margin-top: 100px;
@@ -129,11 +132,13 @@ nav ul li {
   width: 300px;
 }
 .categories-section {
+  width: 100%;
+  justify-content: space-between;
   margin-top: 200px;
   display: flex;
 }
 .skills-left {
-  padding: 20px;
+  padding: 50px;
   background: #f7dce5;
   border-radius: 20px;
 }
@@ -143,7 +148,7 @@ nav ul li {
   margin: auto;
 }
 .skills-right {
-  flex-grow: 1;
+  margin-top: 50px;
   margin-left: 100px;
 }
 .skills-right h2 {
@@ -155,36 +160,33 @@ nav ul li {
 }
 .service-section {
   background: #fff;
+  margin-bottom: -90px;
 }
 .service-section h2 {
   text-align: center;
 }
 .webicon {
-  margin-right: 0px;
   width: 100%;
   margin: auto;
-  margin-left: 10px;
+  margin-left: -100px;
 }
 .webicon ul {
   display: flex;
-  margin: 5px;
 }
 .webicon ul li {
   list-style: none;
-  margin: 0px 40px;
+  margin: 30px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  padding: 15px;
 }
 .icons {
   height: 100px;
   width: 100px;
 }
-.box {
-  width: 100%;
-  height: 50vh;
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  background: chartreuse;
-  border: 1px solid black;
-  align-items: center;
+.client-icons i {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  justify-content: space-between;
 }
