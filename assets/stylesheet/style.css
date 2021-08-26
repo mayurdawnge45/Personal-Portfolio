@@ -216,3 +216,26 @@ nav ul li {
 .right-maskgroup {
   margin-top: 300px;
 }
+.contact-icon {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 55px;
+  color: #ff4c60;
+  position: relative;
+}
+.contact-icon p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+form {
+  position: absolute;
+  padding: 20px;
+  width: 40%;
+  background: #ff4c60;
+  right: 1px;
+}
+.contact-section {
+  position: relative;
+}
