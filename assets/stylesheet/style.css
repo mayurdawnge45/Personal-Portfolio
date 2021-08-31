@@ -95,7 +95,7 @@ nav ul li {
   color: #ff4c60;
   font-weight: normal;
   font-style: italic;
-  margin-top: -25px;
+  margin-top: -15px;
   font-size: 35px;
 }
 .container-section {
@@ -128,7 +128,7 @@ nav ul li {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin: auto;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 300px;
 }
 .categories-section {
@@ -157,6 +157,13 @@ nav ul li {
 .subscribe-link {
   margin: auto;
   vertical-align: center;
+}
+.subscribe-link a {
+  color: rgb(161, 161, 161);
+}
+.subscribe-link a:hover {
+  text-decoration: none;
+  color: rgb(161, 161, 161);
 }
 .service-section {
   background: #fff;
@@ -198,7 +205,7 @@ nav ul li {
 }
 .social-icons > .fab {
   margin-left: 60px;
-  line-height: 015px;
+  line-height: 035px;
   text-align: center;
 }
 .social-icons p {
