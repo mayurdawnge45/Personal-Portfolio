@@ -235,6 +235,8 @@ form {
   width: 40%;
   background: #ff4c60;
   right: 1px;
+  border-radius: 8px;
+  bottom: -30px;
 }
 .contact-section {
   position: relative;
