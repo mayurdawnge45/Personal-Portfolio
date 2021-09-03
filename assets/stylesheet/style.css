@@ -95,7 +95,7 @@ nav ul li {
   color: #ff4c60;
   font-weight: normal;
   font-style: italic;
-  margin-top: -25px;
+  margin-top: -15px;
   font-size: 35px;
 }
 .container-section {
@@ -240,4 +240,10 @@ form {
 }
 .contact-section {
   position: relative;
+}
+footer {
+  width: 100%;
+  margin-top: 60px;
+  height: 60px;
+  background: rgb(0, 0, 0);
 }
