@@ -245,7 +245,63 @@ footer {
   width: 100%;
   margin-top: 60px;
   height: 60px;
-  background: rgb(0, 0, 0);
-  color: #fff;
+  background: #5a595a;
+  color: rgb(255, 255, 255);
   text-align: center;
+}
+/* @media for mobile css start from here */
+@media only screen and (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .container-section {
+    display: block;
+  }
+  .left-banner,
+  h1,
+  h2 {
+    width: 90%;
+    margin: auto;
+  }
+  .right-banner {
+    width: 100%;
+    margin: auto;
+  }
+  .heading-section {
+    width: 95%;
+    margin: auto;
+    line-height: 1.2rem;
+    display: block;
+    padding: 30px 10px;
+    line-height: 1.2;
+  }
+  .subscribe-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .mask-group {
+    width: 100%;
+    display: block;
+  }
+  .categories-section {
+    width: 95%;
+    margin: auto;
+    display: block;
+  }
+  .web-icon {
+    width: 100%;
+    margin: auto;
+  }
+  .skills-left,
+  .skills-left img,
+  .service-section {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .service-section .webicon ul {
+    display: block;
+  }
 }
