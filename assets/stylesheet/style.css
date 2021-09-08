@@ -249,10 +249,11 @@ footer {
   width: 100%;
   margin-top: 60px;
   height: 60px;
-  background: #5a595a;
-  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  color: #fff;
   text-align: center;
 }
+<<<<<<< HEAD
 /* @media query for mobile  start from here */
 @media only screen and (max-width: 768px) {
   .main-container {
@@ -425,3 +426,5 @@ footer {
     margin: auto;
   }
 }
+=======
+>>>>>>> parent of b463715 (DC-108 Footer Section Done)
