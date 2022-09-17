@@ -10,7 +10,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.top-banner{
+  background: url(../images/banner-top.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 header {
   width: 100%;
   max-width: 1200px;
@@ -106,8 +111,10 @@ nav ul li {
 }
 
 .right-banner {
-
   width: 100%;
+}
+.right-banner img{
+  display: none;
 }
 
 .left-banner h1:nth-child(3),
@@ -309,7 +316,12 @@ button.btn.btn-primary {
   margin: 80px 0;
   column-gap: 20px;
 }
-
+/****************************************/
+/* news letter section start from here */
+/****************************************/
+.newsletter-section .row{
+  row-gap: 20px;
+}
 .port-center-card{
   margin-top: 150px !important;
 }
@@ -347,9 +359,18 @@ form {
 
 footer {
   width: 100%;
-  margin-top: 60px;
-  height: 60px;
-  background: rgb(0, 0, 0);
+  padding: 80px 0px;
+  background: #252525;
   color: #fff;
   text-align: center;
+}
+img.footer-log {
+  width: 100%;
+  max-width: 90%;
+}
+.footer-logo-section h3 a{
+  color: #fff;  
+}
+.footer-row a:hover {
+  color: #8d8d8d;
 }
