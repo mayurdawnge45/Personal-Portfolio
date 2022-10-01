@@ -39,6 +39,17 @@
       margin-top: 20px !important;
 
     }
+    .left-banner h2:nth-child(2) {
+      /* color: #ff4c60; */
+      font-size: 29px;
+      text-align: left;
+    }
+    .left-banner h2:nth-child(4) strong{
+      font-size: 24px;
+    }
+    .service-right-icon img{
+      width: inherit;
+    }
 }
 
 /*tab*/
@@ -179,6 +190,11 @@
     .port-center-card,.port-last-card{
       margin-top: 20px !important;
 
+    }
+    .left-banner h2:nth-child(2) {
+      /* color: #ff4c60; */
+      font-size: 35px;
+      text-align: left;
     }
   }
 
